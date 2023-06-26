@@ -1,0 +1,44 @@
+.left{
+    float: left;
+  width: 30%; 
+  background: #ccc;
+  padding: 20px;
+  height: 562.6px;
+    
+}
+
+.display{
+    float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 562.6px;
+}
+
+.main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.links li {
+  margin-right: 10px;
+}
+
+.links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.links li a:hover {
+  background-color: #fff;
+  color: #333;
+}
